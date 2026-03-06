@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const db = new pg.Client({
-  connectionString: process.env.postgresql:kaushikee_sql_user:ejgTtOPYJe4ADsMOrvxeznSkgGYffNQ2@dpg-d6lec6n5r7bs7398af3g-a.oregon-postgres.render.com/kaushikee_sql,
+  connectionString: process.env.postgresql://kaushikee_sql_user:ejgTtOPYJe4ADsMOrvxeznSkgGYffNQ2@dpg-d6lec6n5r7bs7398af3g-a.oregon-postgres.render.com/kaushikee_sql,
   ssl: {
     rejectUnauthorized: false
   }
